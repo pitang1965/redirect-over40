@@ -1,3 +1,5 @@
 [[redirects]]
-  from = "https://over-40-web-club.netlify.app"
-  to = "https://over40web.club"
+from = "https://over-40-web-club.netlify.app/*"
+to = "https://over40web.club/:splat"
+status = 301
+force = true
